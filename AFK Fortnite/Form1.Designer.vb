@@ -70,7 +70,7 @@ Partial Class Form1
         'lblCountdown
         '
         Me.lblCountdown.AutoSize = True
-        Me.lblCountdown.Location = New System.Drawing.Point(12, 250)
+        Me.lblCountdown.Location = New System.Drawing.Point(12, 253)
         Me.lblCountdown.Name = "lblCountdown"
         Me.lblCountdown.Size = New System.Drawing.Size(61, 13)
         Me.lblCountdown.TabIndex = 4

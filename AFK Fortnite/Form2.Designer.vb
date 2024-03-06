@@ -39,8 +39,6 @@ Partial Class Form2
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
         Me.CheckBox8 = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -52,7 +50,7 @@ Partial Class Form2
         Me.ButtonOtherStuff.ForeColor = System.Drawing.SystemColors.HotTrack
         Me.ButtonOtherStuff.Location = New System.Drawing.Point(184, 168)
         Me.ButtonOtherStuff.Name = "ButtonOtherStuff"
-        Me.ButtonOtherStuff.Size = New System.Drawing.Size(165, 23)
+        Me.ButtonOtherStuff.Size = New System.Drawing.Size(180, 23)
         Me.ButtonOtherStuff.TabIndex = 27
         Me.ButtonOtherStuff.Text = "Other Projects"
         Me.ButtonOtherStuff.UseVisualStyleBackColor = True
@@ -61,7 +59,7 @@ Partial Class Form2
         '
         Me.ButtonDonate.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonDonate.ForeColor = System.Drawing.Color.DarkGreen
-        Me.ButtonDonate.Location = New System.Drawing.Point(12, 168)
+        Me.ButtonDonate.Location = New System.Drawing.Point(12, 170)
         Me.ButtonDonate.Name = "ButtonDonate"
         Me.ButtonDonate.Size = New System.Drawing.Size(166, 23)
         Me.ButtonDonate.TabIndex = 26
@@ -114,7 +112,7 @@ Partial Class Form2
         Me.TextBoxDate.Location = New System.Drawing.Point(184, 142)
         Me.TextBoxDate.Name = "TextBoxDate"
         Me.TextBoxDate.ReadOnly = True
-        Me.TextBoxDate.Size = New System.Drawing.Size(169, 21)
+        Me.TextBoxDate.Size = New System.Drawing.Size(180, 21)
         Me.TextBoxDate.TabIndex = 21
         Me.TextBoxDate.Text = "March 2024"
         '
@@ -124,7 +122,7 @@ Partial Class Form2
         Me.TextBoxBy.Location = New System.Drawing.Point(184, 103)
         Me.TextBoxBy.Name = "TextBoxBy"
         Me.TextBoxBy.ReadOnly = True
-        Me.TextBoxBy.Size = New System.Drawing.Size(169, 21)
+        Me.TextBoxBy.Size = New System.Drawing.Size(180, 21)
         Me.TextBoxBy.TabIndex = 20
         Me.TextBoxBy.Text = "Aidan Macgregor"
         '
@@ -134,9 +132,9 @@ Partial Class Form2
         Me.TextBoxVersion.Location = New System.Drawing.Point(184, 64)
         Me.TextBoxVersion.Name = "TextBoxVersion"
         Me.TextBoxVersion.ReadOnly = True
-        Me.TextBoxVersion.Size = New System.Drawing.Size(169, 21)
+        Me.TextBoxVersion.Size = New System.Drawing.Size(180, 21)
         Me.TextBoxVersion.TabIndex = 19
-        Me.TextBoxVersion.Text = "1.0.0.1"
+        Me.TextBoxVersion.Text = "1.0.0.2"
         '
         'TextBoxName
         '
@@ -144,7 +142,7 @@ Partial Class Form2
         Me.TextBoxName.Location = New System.Drawing.Point(184, 25)
         Me.TextBoxName.Name = "TextBoxName"
         Me.TextBoxName.ReadOnly = True
-        Me.TextBoxName.Size = New System.Drawing.Size(169, 21)
+        Me.TextBoxName.Size = New System.Drawing.Size(180, 21)
         Me.TextBoxName.TabIndex = 18
         Me.TextBoxName.Text = "Aidan's Fortnite XP Tool"
         '
@@ -209,34 +207,14 @@ Partial Class Form2
         Me.CheckBox5.Text = "5. Run Tool In Lego mode"
         Me.CheckBox5.UseVisualStyleBackColor = True
         '
-        'CheckBox6
-        '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(12, 327)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(254, 17)
-        Me.CheckBox6.TabIndex = 33
-        Me.CheckBox6.Text = "6. After 3h 30m Switch To Lego Mode (Creative)"
-        Me.CheckBox6.UseVisualStyleBackColor = True
-        '
-        'CheckBox7
-        '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(12, 350)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(150, 17)
-        Me.CheckBox7.TabIndex = 34
-        Me.CheckBox7.Text = "7. Run Tool In Lego mode"
-        Me.CheckBox7.UseVisualStyleBackColor = True
-        '
         'CheckBox8
         '
         Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(12, 373)
+        Me.CheckBox8.Location = New System.Drawing.Point(12, 327)
         Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(317, 17)
+        Me.CheckBox8.Size = New System.Drawing.Size(348, 17)
         Me.CheckBox8.TabIndex = 35
-        Me.CheckBox8.Text = "8. After 3h 30m Profit! Gain 15 Level Daily (Resets 2PM GMT)"
+        Me.CheckBox8.Text = "6. After 3h 30m Profit! Gain About 10 Level Daily (Resets 2PM GMT)"
         Me.CheckBox8.UseVisualStyleBackColor = True
         '
         'Label5
@@ -252,11 +230,9 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(365, 396)
+        Me.ClientSize = New System.Drawing.Size(376, 350)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.CheckBox8)
-        Me.Controls.Add(Me.CheckBox7)
-        Me.Controls.Add(Me.CheckBox6)
         Me.Controls.Add(Me.CheckBox5)
         Me.Controls.Add(Me.CheckBox4)
         Me.Controls.Add(Me.CheckBox3)
@@ -298,8 +274,6 @@ Partial Class Form2
     Friend WithEvents CheckBox3 As CheckBox
     Friend WithEvents CheckBox4 As CheckBox
     Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents CheckBox7 As CheckBox
     Friend WithEvents CheckBox8 As CheckBox
     Friend WithEvents Label5 As Label
 End Class
