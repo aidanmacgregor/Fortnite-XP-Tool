@@ -17,6 +17,6 @@ This is a VB.NET code for a Windows Forms application. This is a tool for gianin
 https://github.com/aidanmacgregor/Fortnite-XP-Tool/releases
 
 Issues:
-- This Uses .NET 4.6, This should work on windows 10+ (older Windows May Need [THIS](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net46)https://dotnet.microsoft.com/en-us/download/dotnet-framework/net46)
+- This Uses .NET 4.6, This should work on windows 10+ (older Windows May Need [THIS](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net46))
 - This Tool Sends Keyboard Commands, it may not work if you have changed the "EMOTE" key (Default "B") For Jam Stage Its "B" & "SPACE" Keys
 
