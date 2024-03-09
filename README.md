@@ -1,12 +1,12 @@
 # Aidan's Fortnite XP Tool
-A tool to automate jam mode &amp; Lego Fortnite to gain up to 5 levels each daily (10 Total)<br>
+A tool to automate jam mode &amp; ~~Lego Fortnite~~ to gain up to 5 levels ~~each~~ daily (~~10 Total~~)<br>
 <br>
 # Features:
 
- - Countdown Timer Included
- - Automate Jam Stage XP Instument Change (5 Levels)
- ~~Automate Lego Mode XP Regular Emote (5 Levels)~~
- - Tick Boxes To Keep Track Of Completed Parts
+ - Countdown Timer Included <br>
+ - Automate Jam Stage XP Instument Change (5 Levels) <br>
+ - ~~Automate Lego Mode XP Regular Emote (5 Levels)~~ <br>
+ - Tick Boxes To Keep Track Of Completed Parts <br>
 
 This is a VB.NET code for a Windows Forms application. This is a tool for gianing XP while not playing (AFK)
 
