@@ -1,4 +1,5 @@
-Warning: A user has reported a temporary 24hour ban, i want to update to make it more random and less chance of detection, i havent seen this yet though...
+## Warning: 
+A user has reported a temporary 24hour ban, i want to update to make it more random and less chance of detection, i havent seen this yet though...
 
 # Aidan's Fortnite XP Tool
 A tool to automate jam mode &amp; Lego Fortnite to gain up to 5 levels each daily (10 Total)<br>
